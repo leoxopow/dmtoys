@@ -121,7 +121,9 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
-
+		'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
+		'Way\Generators\GeneratorsServiceProvider',
+		'SleepingOwl\Admin\AdminServiceProvider',
 	),
 
 	/*
@@ -189,6 +191,13 @@ return array(
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
 
+		'Admin'           => 'SleepingOwl\Admin\Admin',
+		'AdminAuth'       => 'SleepingOwl\AdminAuth\Facades\AdminAuth',
+		'AdminRouter'     => 'SleepingOwl\Admin\Facades\AdminRouter',
+		'AssetManager'    => 'SleepingOwl\Admin\AssetManager\AssetManager',
+		'Column'          => 'SleepingOwl\Admin\Columns\Column',
+		'FormItem'        => 'SleepingOwl\Admin\Models\Form\FormItem',
+		'ModelItem'       => 'SleepingOwl\Admin\Models\ModelItem',
 	),
 
 );
