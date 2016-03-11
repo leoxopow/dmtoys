@@ -1,0 +1,1180 @@
+[
+  {
+    "title": "Игрушки",
+    "slug": "/catalog/igrushki",
+    "children": [
+      {
+        "title": "Интерактивные игрушки",
+        "slug": "/catalog/igrushki/interaktivnye-igrushki",
+        "children": [
+          {
+            "title": "Angry Birds",
+            "slug": "/catalog/igrushki/interaktivnye-igrushki/angry-birds",
+            "children": []
+          },
+          {
+            "title": "AniMagic",
+            "slug": "/catalog/igrushki/interaktivnye-igrushki/animagic",
+            "children": []
+          },
+          {
+            "title": "Baboum",
+            "slug": "/catalog/igrushki/interaktivnye-igrushki/baboum",
+            "children": []
+          },
+          {
+            "title": "Chi Chi Love",
+            "slug": "/catalog/igrushki/interaktivnye-igrushki/chi-chi-love",
+            "children": []
+          },
+          {
+            "title": "Emotion Pets",
+            "slug": "/catalog/igrushki/interaktivnye-igrushki/emotion-pets",
+            "children": []
+          },
+          {
+            "title": "Flufflings",
+            "slug": "/catalog/igrushki/interaktivnye-igrushki/flufflings",
+            "children": []
+          },
+          {
+            "title": "Giochi Preziosi",
+            "slug": "/catalog/igrushki/interaktivnye-igrushki/giochi-preziosi",
+            "children": []
+          },
+          {
+            "title": "Hasbro",
+            "slug": "/catalog/igrushki/interaktivnye-igrushki/hasbro",
+            "children": []
+          },
+          {
+            "title": "MGA",
+            "slug": "/catalog/igrushki/interaktivnye-igrushki/mga",
+            "children": []
+          },
+          {
+            "title": "Me&Dad",
+            "slug": "/catalog/igrushki/interaktivnye-igrushki/medad",
+            "children": []
+          },
+          {
+            "title": "PLEO",
+            "slug": "/catalog/igrushki/interaktivnye-igrushki/pleo",
+            "children": []
+          },
+          {
+            "title": "Penbo",
+            "slug": "/catalog/igrushki/interaktivnye-igrushki/penbo",
+            "children": []
+          },
+          {
+            "title": "Perfect Petzzz",
+            "slug": "/catalog/igrushki/interaktivnye-igrushki/perfectpetzzz",
+            "children": []
+          },
+          {
+            "title": "Quaps",
+            "slug": "/catalog/igrushki/interaktivnye-igrushki/quaps",
+            "children": []
+          },
+          {
+            "title": "Robo Fish",
+            "slug": "/catalog/igrushki/interaktivnye-igrushki/robo-fish",
+            "children": []
+          },
+          {
+            "title": "Wild Planet",
+            "slug": "/catalog/igrushki/interaktivnye-igrushki/wild-planet",
+            "children": []
+          },
+          {
+            "title": "Woody O'time",
+            "slug": "/catalog/igrushki/interaktivnye-igrushki/woody-otime",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Для самых маленьких",
+        "slug": "/catalog/igrushki/dlya-samykh-malenkikh",
+        "children": [
+          {
+            "title": "Игровые наборы, конструкторы",
+            "slug": "/catalog/igrushki/dlya-samykh-malenkikh/igrovye-nabory-konstruktory",
+            "children": []
+          },
+          {
+            "title": "Игрушки для купания",
+            "slug": "/catalog/igrushki/dlya-samykh-malenkikh/igrushki-dlya-kupaniya",
+            "children": []
+          },
+          {
+            "title": "Каталки и толкалки",
+            "slug": "/catalog/igrushki/dlya-samykh-malenkikh/katalki-i-tolkalki",
+            "children": []
+          },
+          {
+            "title": "Книжки",
+            "slug": "/catalog/igrushki/dlya-samykh-malenkikh/knizhki",
+            "children": []
+          },
+          {
+            "title": "Мобили и подвески на кроватку",
+            "slug": "/catalog/igrushki/dlya-samykh-malenkikh/mobili-i-podveski-na-krovatku",
+            "children": []
+          },
+          {
+            "title": "Погремушки и грызунки",
+            "slug": "/catalog/igrushki/dlya-samykh-malenkikh/pogremushki-i-gryzunki",
+            "children": []
+          },
+          {
+            "title": "Развивающие коврики и комплексы",
+            "slug": "/catalog/igrushki/dlya-samykh-malenkikh/razvivayushchie-kovriki-i-kompleksy",
+            "children": []
+          },
+          {
+            "title": "Сортеры",
+            "slug": "/catalog/igrushki/dlya-samykh-malenkikh/sortery",
+            "children": []
+          },
+          {
+            "title": "Юлы, пирамидки",
+            "slug": "/catalog/igrushki/dlya-samykh-malenkikh/yuly",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Игровые наборы",
+        "slug": "/catalog/igrushki/igrovye-nabory",
+        "children": [
+          {
+            "title": "Chap Mei",
+            "slug": "/catalog/igrushki/igrovye-nabory/chap-mei",
+            "children": []
+          },
+          {
+            "title": "Kiddieland",
+            "slug": "/catalog/igrushki/igrovye-nabory/kiddieland",
+            "children": []
+          },
+          {
+            "title": "Littlest Pet Shop",
+            "slug": "/catalog/igrushki/igrovye-nabory/littlest-pet-shop",
+            "children": []
+          },
+          {
+            "title": "My Little Pony",
+            "slug": "/catalog/igrushki/igrovye-nabory/my-little-pony",
+            "children": []
+          },
+          {
+            "title": "Peppa",
+            "slug": "/catalog/igrushki/igrovye-nabory/peppa",
+            "children": []
+          },
+          {
+            "title": "Vip Pets",
+            "slug": "/catalog/igrushki/igrovye-nabory/vip-pets",
+            "children": []
+          },
+          {
+            "title": "Поли Робокар",
+            "slug": "/catalog/igrushki/igrovye-nabory/poli-robokar",
+            "children": []
+          },
+          {
+            "title": "Щенячий патруль",
+            "slug": "http://dmtoys.com.ua/katalog/igrushki/igrovye-nabory/shchenyachii-patrul",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Игрушки для воды и песка",
+        "slug": "/catalog/igrushki/igrushki-dlya-vody-i-peska",
+        "children": []
+      },
+      {
+        "title": "Фигурки",
+        "slug": "/catalog/igrushki/figurki",
+        "children": [
+          {
+            "title": "Schleich (Top 10)",
+            "slug": "/catalog/igrushki/figurki/schleich-top-10",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Игрушки для мальчиков",
+        "slug": "/catalog/igrushki/igrushki-dlya-malchikov",
+        "children": [
+          {
+            "title": "Автотреки, гаражи",
+            "slug": "http://dmtoys.com.ua/katalog/igrushki/igrushki-dlya-malchikov/avtotreki-garazhi",
+            "children": []
+          },
+          {
+            "title": "Железная дорога",
+            "slug": "/catalog/igrushki/igrushki-dlya-malchikov/zheleznaya-doroga",
+            "children": []
+          },
+          {
+            "title": "Катера/Лодки",
+            "slug": "/catalog/igrushki/igrushki-dlya-malchikov/kateralodki",
+            "children": []
+          },
+          {
+            "title": "Машинки и треки",
+            "slug": "/catalog/igrushki/igrushki-dlya-malchikov/mashinki-i-treki",
+            "children": []
+          },
+          {
+            "title": "Оружие",
+            "slug": "/catalog/igrushki/igrushki-dlya-malchikov/oruzhie",
+            "children": []
+          },
+          {
+            "title": "Р/У игрушки",
+            "slug": "/catalog/igrushki/igrushki-dlya-malchikov/ru-igrushki",
+            "children": []
+          },
+          {
+            "title": "Роботы",
+            "slug": "/catalog/igrushki/igrushki-dlya-malchikov/roboty",
+            "children": []
+          },
+          {
+            "title": "Строительная техника",
+            "slug": "/catalog/igrushki/igrushki-dlya-malchikov/stroitelnaya-tekhnika",
+            "children": []
+          },
+          {
+            "title": "Супергерои",
+            "slug": "/catalog/igrushki/igrushki-dlya-malchikov/supergeroi",
+            "children": []
+          },
+          {
+            "title": "Фигурки",
+            "slug": "/catalog/igrushki/igrushki-dlya-malchikov/figurki",
+            "children": []
+          },
+          {
+            "title": "Черепашки Ниндзя",
+            "slug": "/catalog/igrushki/igrushki-dlya-malchikov/cherepashki-nindzya",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Мир кукол",
+        "slug": "/catalog/igrushki/mir-kukol",
+        "children": [
+          {
+            "title": "Домики для кукол",
+            "slug": "/catalog/igrushki/mir-kukol/domiki-dlya-kukol",
+            "children": []
+          },
+          {
+            "title": "Коляски для кукол",
+            "slug": "/catalog/igrushki/mir-kukol/kolyaski-dlya-kukol",
+            "children": []
+          },
+          {
+            "title": "Куклы",
+            "slug": "/catalog/igrushki/mir-kukol/kukly",
+            "children": []
+          },
+          {
+            "title": "Кукольные наборы",
+            "slug": "/catalog/igrushki/mir-kukol/kukolnye-nabory",
+            "children": []
+          },
+          {
+            "title": "Мебель для кукол",
+            "slug": "/catalog/igrushki/mir-kukol/mebel-dlya-kukol",
+            "children": []
+          },
+          {
+            "title": "Мягкие куклы",
+            "slug": "/catalog/igrushki/mir-kukol/myagkie-kukly",
+            "children": []
+          },
+          {
+            "title": "Одежда и аксессуары для кукол",
+            "slug": "/catalog/igrushki/mir-kukol/odezhda-i-aksessuary-dlya-kukol",
+            "children": []
+          },
+          {
+            "title": "Пупсы",
+            "slug": "/catalog/igrushki/mir-kukol/pupsy",
+            "children": []
+          },
+          {
+            "title": "Транспорт для кукол",
+            "slug": "/catalog/igrushki/mir-kukol/transport-dlya-kukol",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Конструкторы",
+        "slug": "/catalog/igrushki/konstruktory",
+        "children": [
+          {
+            "title": "LEGO",
+            "slug": "/catalog/igrushki/konstruktory/lego",
+            "children": []
+          },
+          {
+            "title": "Laser pegs",
+            "slug": "http://dmtoys.com.ua/catalog/igrushki/konstruktory/laser-pegs",
+            "children": []
+          },
+          {
+            "title": "Meccano",
+            "slug": "http://dmtoys.com.ua/katalog/igrushki/konstruktory/meccano",
+            "children": []
+          },
+          {
+            "title": "Mega Bloks",
+            "slug": "/catalog/igrushki/konstruktory/mega-blocks",
+            "children": []
+          },
+          {
+            "title": "PlayGo",
+            "slug": "/catalog/igrushki/konstruktory/playgo",
+            "children": []
+          },
+          {
+            "title": "Город мастеров",
+            "slug": "http://dmtoys.com.ua/katalog/igrushki/konstruktory/gorod-masterov",
+            "children": []
+          },
+          {
+            "title": "Знаток",
+            "slug": "/catalog/igrushki/konstruktory/znatok",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Активные игры",
+        "slug": "/catalog/igrushki/igry-razvlecheniya",
+        "children": []
+      },
+      {
+        "title": "Мягкая игрушка",
+        "slug": "/catalog/igrushki/myagkaya-igrushka",
+        "children": [
+          {
+            "title": "Angry Birds",
+            "slug": "/catalog/igrushki/myagkaya-igrushka/angry-birds",
+            "children": []
+          },
+          {
+            "title": "Avrora",
+            "slug": "/catalog/igrushki/myagkaya-igrushka/avrora",
+            "children": []
+          },
+          {
+            "title": "Devik toys",
+            "slug": "/catalog/igrushki/myagkaya-igrushka/devik-toys",
+            "children": []
+          },
+          {
+            "title": "Fancy",
+            "slug": "/catalog/igrushki/myagkaya-igrushka/fancy",
+            "children": []
+          },
+          {
+            "title": "Grand",
+            "slug": "/catalog/igrushki/myagkaya-igrushka/grand",
+            "children": []
+          },
+          {
+            "title": "Lava",
+            "slug": "/catalog/igrushki/myagkaya-igrushka/lava",
+            "children": []
+          },
+          {
+            "title": "Orange",
+            "slug": "/catalog/igrushki/myagkaya-igrushka/orange",
+            "children": []
+          },
+          {
+            "title": "Trudi",
+            "slug": "/catalog/igrushki/myagkaya-igrushka/trudi",
+            "children": []
+          },
+          {
+            "title": "Копиця",
+            "slug": "/catalog/igrushki/myagkaya-igrushka/kopitsya",
+            "children": []
+          },
+          {
+            "title": "Левеня",
+            "slug": "/catalog/igrushki/myagkaya-igrushka/levenya",
+            "children": []
+          },
+          {
+            "title": "Мишки Тедди (Me To You)",
+            "slug": "/catalog/igrushki/myagkaya-igrushka/mishki-teddi-me-you",
+            "children": []
+          },
+          {
+            "title": "Мульти Пульти",
+            "slug": "/catalog/igrushki/myagkaya-igrushka/multi-pulti",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Настольные игры",
+        "slug": "/catalog/igrushki/nastolnye-igry",
+        "children": []
+      },
+      {
+        "title": "Пазлы",
+        "slug": "/catalog/igrushki/nastolnye-igry-pazly",
+        "children": [
+          {
+            "title": "TREFL пазлы",
+            "slug": "/catalog/igrushki/nastolnye-igry-pazly/trefl-10002",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Наборы для творчества",
+        "slug": "/catalog/igrushki/kantselyariya-i-nabory-dlya-tvorchestva",
+        "children": [
+          {
+            "title": "Живой песок",
+            "slug": "http://dmtoys.com.ua/katalog/igrushki/nabory-dlya-tvorchestva/zhivoi-pesok",
+            "children": []
+          },
+          {
+            "title": "Рисование",
+            "slug": "http://dmtoys.com.ua/katalog/igrushki/nabory-dlya-tvorchestva/risovanie",
+            "children": []
+          },
+          {
+            "title": "Лепка",
+            "slug": "http://dmtoys.com.ua/katalog/igrushki/nabory-dlya-tvorchestva/lepka",
+            "children": []
+          },
+          {
+            "title": "Мозаика",
+            "slug": "http://dmtoys.com.ua/katalog/igrushki/nabory-dlya-tvorchestva/mozaika",
+            "children": []
+          },
+          {
+            "title": "Мольберты, доски для рисования",
+            "slug": "http://dmtoys.com.ua/katalog/igrushki/nabory-dlya-tvorchestva/molberty-doski-dlya-risovaniya",
+            "children": []
+          },
+          {
+            "title": "Наборы для экспериментов",
+            "slug": "http://dmtoys.com.ua/katalog/igrushki/nabory-dlya-tvorchestva/nabory-dlya-eksperimentov",
+            "children": []
+          },
+          {
+            "title": "Оригами",
+            "slug": "http://dmtoys.com.ua/katalog/igrushki/nabory-dlya-tvorchestva/origami",
+            "children": []
+          },
+          {
+            "title": "Рукоделие",
+            "slug": "http://dmtoys.com.ua/katalog/igrushki/nabory-dlya-tvorchestva/rukodelie",
+            "children": []
+          },
+          {
+            "title": "Сборные модели",
+            "slug": "http://dmtoys.com.ua/katalog/igrushki/nabory-dlya-tvorchestva/sbornye-modeli",
+            "children": []
+          },
+          {
+            "title": "Создание украшений",
+            "slug": "http://dmtoys.com.ua/katalog/igrushki/nabory-dlya-tvorchestva/sozdanie-ukrashenii",
+            "children": []
+          },
+          {
+            "title": "Фокусы",
+            "slug": "http://dmtoys.com.ua/katalog/igrushki/nabory-dlya-tvorchestva/fokusy",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Развивающие игрушки",
+        "slug": "/catalog/igrushki/razvivayushchie-igrushki",
+        "children": [
+          {
+            "title": "Пазлы",
+            "slug": "/catalog/igrushki/razvivayushchie-igrushki/pazly",
+            "children": []
+          },
+          {
+            "title": "Головоломки",
+            "slug": "/catalog/igrushki/razvivayushchie-igrushki/golovolomki",
+            "children": []
+          },
+          {
+            "title": "Интерактивные игрушки",
+            "slug": "/catalog/igrushki/razvivayushchie-igrushki/interaktivnye-igrushki",
+            "children": []
+          },
+          {
+            "title": "Микроскопы, телескопы",
+            "slug": "/catalog/igrushki/razvivayushchie-igrushki/mikroskopy-teleskopy",
+            "children": []
+          },
+          {
+            "title": "Музыкальные игрушки",
+            "slug": "/catalog/igrushki/razvivayushchie-igrushki/muzykalnye-igrushki",
+            "children": []
+          },
+          {
+            "title": "Обучающие плакаты и магниты",
+            "slug": "/catalog/igrushki/razvivayushchie-igrushki/obuchayushchie-plakaty-i-magnity",
+            "children": []
+          },
+          {
+            "title": "Планшеты, смартфоны, телефоны",
+            "slug": "/catalog/igrushki/razvivayushchie-igrushki/planshety-smartfony-telefony",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Сюжетно-ролевые игры",
+        "slug": "/catalog/igrushki/syuzhetno-rolevye-igry",
+        "children": [
+          {
+            "title": "Детская бытовая техника",
+            "slug": "/catalog/igrushki/syuzhetno-rolevye-igry/detskaya-bytovaya-tekhnika",
+            "children": []
+          },
+          {
+            "title": "Детские инструменты и мастерские",
+            "slug": "/catalog/igrushki/syuzhetno-rolevye-igry/detskie-instrumenty-i-masterskie",
+            "children": []
+          },
+          {
+            "title": "Детские рули",
+            "slug": "/catalog/igrushki/syuzhetno-rolevye-igry/detskie-ruli",
+            "children": []
+          },
+          {
+            "title": "Игрушечная посуда",
+            "slug": "/catalog/igrushki/syuzhetno-rolevye-igry/igrushechnaya-posuda",
+            "children": []
+          },
+          {
+            "title": "Карнавальные костюмы, маски",
+            "slug": "/catalog/igrushki/syuzhetno-rolevye-igry/karnavalnye-kostyumy-maski",
+            "children": []
+          },
+          {
+            "title": "Магазины и детские кассы",
+            "slug": "/catalog/igrushki/syuzhetno-rolevye-igry/magaziny-i-detskie-kassy",
+            "children": []
+          },
+          {
+            "title": "Наборы доктора",
+            "slug": "/catalog/igrushki/syuzhetno-rolevye-igry/nabory-doktora",
+            "children": []
+          },
+          {
+            "title": "Шпионские игрушки",
+            "slug": "/catalog/igrushki/syuzhetno-rolevye-igry/shpionskie-shtuchki",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Тематические игровые наборы",
+        "slug": "/catalog/igrushki/tematicheskie-igrovye-nabory",
+        "children": []
+      },
+      {
+        "title": "Игрушки для воды и песка",
+        "slug": "http://dmtoys.com.ua/catalog/igrushki/igrushki-dlya-vody-i-peska",
+        "children": []
+      }
+    ]
+  },
+  {
+    "title": "Коляски",
+    "slug": "/catalog/kolyaski",
+    "children": [
+      {
+        "title": "Коляски 3 в 1",
+        "slug": "/catalog/kolyaski/kolyaski-3-v-1",
+        "children": []
+      },
+      {
+        "title": "Коляски 2 в 1",
+        "slug": "/catalog/kolyaski/kolyaski-2-v-1",
+        "children": []
+      },
+      {
+        "title": "Коляски трансформеры",
+        "slug": "/catalog/kolyaski/kolyaski-transformery",
+        "children": []
+      },
+      {
+        "title": "Аксессуары",
+        "slug": "/catalog/kolyaski/aksessuary-lyulki-k-kolyaskam",
+        "children": []
+      },
+      {
+        "title": "Прогулочные коляски",
+        "slug": "/catalog/kolyaski/progulochnye-kolyaski",
+        "children": []
+      }
+    ]
+  },
+  {
+    "title": "Одежда",
+    "slug": "/catalog/odezhda",
+    "children": [
+      {
+        "title": "Одежда для новорожденных",
+        "slug": "/catalog/odezhda/odezhda-dlya-novorozhdennykh",
+        "children": [
+          {
+            "title": "Бодики, распашонки",
+            "slug": "/catalog/odezhda/odezhda-dlya-novorozhdennykh/bodiki",
+            "children": []
+          },
+          {
+            "title": "Верхняя одежда",
+            "slug": "/catalog/odezhda/odezhda-dlya-novorozhdennykh/verkhnyaya-odezhda",
+            "children": []
+          },
+          {
+            "title": "Комплекты и наборы",
+            "slug": "/catalog/odezhda/odezhda-dlya-novorozhdennykh/komplekty-i-nabory",
+            "children": []
+          },
+          {
+            "title": "Кофточки, регланы, футболки",
+            "slug": "/catalog/odezhda/odezhda-dlya-novorozhdennykh/koftochki-reglany",
+            "children": []
+          },
+          {
+            "title": "Песочники и костюмы",
+            "slug": "/catalog/odezhda/odezhda-dlya-novorozhdennykh/pesochniki-i-kostyumy",
+            "children": []
+          },
+          {
+            "title": "Ползунки, колготки",
+            "slug": "/catalog/odezhda/odezhda-dlya-novorozhdennykh/polzunki-kolgotki",
+            "children": []
+          },
+          {
+            "title": "Шапочки, косынки",
+            "slug": "/catalog/odezhda/odezhda-dlya-novorozhdennykh/shapochki-kosynki",
+            "children": []
+          },
+          {
+            "title": "Штаны, комбинезоны",
+            "slug": "/catalog/odezhda/odezhda-dlya-novorozhdennykh/shtany-kombinezony",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Одежда для девочек",
+        "slug": "/catalog/odezhda/odezhda-dlya-devochek",
+        "children": [
+          {
+            "title": "Купальники",
+            "slug": "/catalog/odezhda/odezhda-dlya-devochek/kupalniki",
+            "children": []
+          },
+          {
+            "title": "Платья, сарафаны",
+            "slug": "/katalog/odezhda/odezhda-dlya-devochek/platya-sarafany",
+            "children": []
+          },
+          {
+            "title": "Футболки, регланы, поло",
+            "slug": "/katalog/odezhda/odezhda-dlya-devochek/futbolki-reglany-polo",
+            "children": []
+          },
+          {
+            "title": " Штаны, комбинезоны, леггинсы",
+            "slug": "/katalog/odezhda/odezhda-dlya-devochek/shtany-kombinezony-legginsy",
+            "children": []
+          },
+          {
+            "title": "Шорты, бриджи, юбки",
+            "slug": "/katalog/odezhda/odezhda-dlya-devochek/shorty-bridzhi-yubki",
+            "children": []
+          },
+          {
+            "title": "Комплекты и наборы",
+            "slug": "/catalog/odezhda/odezhda-dlya-devochek/komplekty-i-nabory",
+            "children": []
+          },
+          {
+            "title": "Верхняя одежда",
+            "slug": "/katalog/odezhda/odezhda-dlya-devochek/verkhnyaya-odezhda",
+            "children": []
+          },
+          {
+            "title": "Жакеты, пиджаки",
+            "slug": "/catalog/odezhda/odezhda-dlya-devochek/zhakety-pidzhaki",
+            "children": []
+          },
+          {
+            "title": "Варежки",
+            "slug": "/catalog/odezhda/odezhda/odezhda-dlya-malchikov/odezhda-dlya-devochek/varezhki",
+            "children": []
+          },
+          {
+            "title": "Блузки, рубашки",
+            "slug": "http://dmtoys.com.ua/katalog/odezhda/odezhda-dlya-devochek/bluzki-rubashki",
+            "children": []
+          },
+          {
+            "title": "Джинсы, брюки",
+            "slug": "http://dmtoys.com.ua/katalog/odezhda/odezhda-dlya-devochek/dzhinsy-bryuki",
+            "children": []
+          },
+          {
+            "title": "Кофты, кардиганы",
+            "slug": "http://dmtoys.com.ua/katalog/odezhda/odezhda-dlya-devochek/kofty-kardigany",
+            "children": []
+          },
+          {
+            "title": "Майки, топы",
+            "slug": "http://dmtoys.com.ua/katalog/odezhda/odezhda-dlya-devochek/maiki-topy",
+            "children": []
+          },
+          {
+            "title": "Свитера, джемперы, регланы",
+            "slug": "http://dmtoys.com.ua/katalog/odezhda/odezhda-dlya-devochek/svitera-dzhempery-reglany",
+            "children": []
+          },
+          {
+            "title": "Спортивные костюмы",
+            "slug": "http://dmtoys.com.ua/katalog/odezhda/odezhda-dlya-devochek/sportivnye-kostyumy",
+            "children": []
+          },
+          {
+            "title": "Толстовки, пайты",
+            "slug": "http://dmtoys.com.ua/katalog/odezhda/odezhda-dlya-devochek/tolstovki-paity",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Одежда для мальчиков",
+        "slug": "/catalog/odezhda/odezhda-dlya-malchikov",
+        "children": [
+          {
+            "title": "Варежки",
+            "slug": "/catalog/odezhda/odezhda/odezhda-dlya-malchikov/odezhda-dlya-devochek/varezhki",
+            "children": []
+          },
+          {
+            "title": "Верхняя одежда",
+            "slug": "/catalog/odezhda/odezhda-dlya-malchikov/verkhnyaya-odezhda",
+            "children": []
+          },
+          {
+            "title": "Джинсы, брюки",
+            "slug": "http://dmtoys.com.ua/katalog/odezhda/odezhda-dlya-malchikov/dzhinsy-bryuki",
+            "children": []
+          },
+          {
+            "title": "Жакеты, пиджаки",
+            "slug": "http://dmtoys.com.ua/katalog/odezhda/odezhda-dlya-malchikov/zhakety-pidzhaki",
+            "children": []
+          },
+          {
+            "title": "Комплекты, наборы",
+            "slug": "http://dmtoys.com.ua/katalog/odezhda/odezhda-dlya-malchikov/komplekty-nabory",
+            "children": []
+          },
+          {
+            "title": "Костюмы",
+            "slug": "http://dmtoys.com.ua/katalog/odezhda/odezhda-dlya-malchikov/kostyumy",
+            "children": []
+          },
+          {
+            "title": "Кофты, кардиганы",
+            "slug": "http://dmtoys.com.ua/katalog/odezhda/odezhda-dlya-malchikov/kofty-kardigany",
+            "children": []
+          },
+          {
+            "title": "Майки, топы",
+            "slug": "http://dmtoys.com.ua/katalog/odezhda/odezhda-dlya-malchikov/maiki-topy",
+            "children": []
+          },
+          {
+            "title": "Нижнее белье",
+            "slug": "/catalog/odezhda/odezhda-dlya-malchikov/nizhnee-bele",
+            "children": []
+          },
+          {
+            "title": "Рубашки",
+            "slug": "http://dmtoys.com.ua/katalog/odezhda/odezhda-dlya-malchikov/rubashki",
+            "children": []
+          },
+          {
+            "title": "Свитера, джемперы, регланы",
+            "slug": "http://dmtoys.com.ua/katalog/odezhda/odezhda-dlya-malchikov/svitera-dzhempery-reglany",
+            "children": []
+          },
+          {
+            "title": "Спортивные костюмы",
+            "slug": "http://dmtoys.com.ua/katalog/odezhda/odezhda-dlya-malchikov/sportivnye-kostyumy",
+            "children": []
+          },
+          {
+            "title": "Толстовки, пайты",
+            "slug": "http://dmtoys.com.ua/katalog/odezhda/odezhda-dlya-malchikov/tolstovki-paity",
+            "children": []
+          },
+          {
+            "title": "Футболки, регланы, поло",
+            "slug": "http://dmtoys.com.ua/katalog/odezhda/odezhda-dlya-malchikov/futbolki-reglany-polo",
+            "children": []
+          },
+          {
+            "title": "Шорты, бриджи",
+            "slug": "http://dmtoys.com.ua/katalog/odezhda/odezhda-dlya-malchikov/shorty-bridzhi",
+            "children": []
+          },
+          {
+            "title": "Штаны, комбинезоны",
+            "slug": "/catalog/odezhda/odezhda-dlya-malchikov/shtany-shorty-kombinezony",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Головные уборы, Перчатки, Шарфы",
+        "slug": "/catalog/odezhda/golovnye-ubory-perchatki-sharfy",
+        "children": [
+          {
+            "title": "Головные уборы",
+            "slug": "/catalog/odezhda/golovnye-ubory-perchatki-sharfy/golovnye-ubory",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Школьная одежда",
+        "slug": "/catalog/549",
+        "children": [
+          {
+            "title": "Костюмы",
+            "slug": "/catalog/551",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Школьные рюкзаки, портфели",
+        "slug": "http://dmtoys.com.ua/catalog/odezhda/ryukzaki",
+        "children": []
+      }
+    ]
+  },
+  {
+    "title": "Обувь",
+    "slug": "/catalog/obuv",
+    "children": [
+      {
+        "title": "Сандали",
+        "slug": "http://dmtoys.com.ua/katalog/obuv/sandali",
+        "children": []
+      },
+      {
+        "title": "Туфли",
+        "slug": "http://dmtoys.com.ua/katalog/obuv/tufli",
+        "children": []
+      },
+      {
+        "title": "Мокасины",
+        "slug": "http://dmtoys.com.ua/katalog/obuv/mokasiny",
+        "children": []
+      },
+      {
+        "title": "Кроссовки",
+        "slug": "http://dmtoys.com.ua/katalog/obuv/krossovki",
+        "children": []
+      },
+      {
+        "title": "Ботинки",
+        "slug": "http://dmtoys.com.ua/katalog/obuv/botinki",
+        "children": []
+      },
+      {
+        "title": "Полуботинки",
+        "slug": "http://dmtoys.com.ua/katalog/obuv/polubotinki",
+        "children": []
+      },
+      {
+        "title": "Резиновые сапоги",
+        "slug": "http://dmtoys.com.ua/katalog/obuv/sapogi-rezinovye",
+        "children": []
+      },
+      {
+        "title": "Сапоги",
+        "slug": "http://dmtoys.com.ua/katalog/obuv/sapogi",
+        "children": []
+      }
+    ]
+  },
+  {
+    "title": "Активный отдых",
+    "slug": "/catalog/aktivnyi-otdykh",
+    "children": [
+      {
+        "title": "Горки / Песочницы / Домики",
+        "slug": "/catalog/gorki-pesochnitsy-domiki",
+        "children": [
+          {
+            "title": "CHING",
+            "slug": "/catalog/gorki-pesochnitsy-domiki/ching",
+            "children": []
+          },
+          {
+            "title": "Injusa",
+            "slug": "/catalog/gorki-pesochnitsy-domiki/injusa",
+            "children": []
+          },
+          {
+            "title": "Keter",
+            "slug": "/catalog/gorki-pesochnitsy-domiki/keter",
+            "children": []
+          },
+          {
+            "title": "Starplast",
+            "slug": "/catalog/gorki-pesochnitsy-domiki/starplast",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Транспорт",
+        "slug": "/catalog/transport",
+        "children": [
+          {
+            "title": "Рюкзаки-переноски",
+            "slug": "/catalog/gigiena/aksessuary/ryukzak-kenguru",
+            "children": []
+          },
+          {
+            "title": "Велосипеды",
+            "slug": "/catalog/transport/velosipedy",
+            "children": []
+          },
+          {
+            "title": "Самокаты",
+            "slug": "/catalog/transport/samokaty",
+            "children": []
+          },
+          {
+            "title": "Чудомобили",
+            "slug": "/catalog/transport/chudomobili",
+            "children": []
+          },
+          {
+            "title": "Санки",
+            "slug": "/catalog/transport/sanki",
+            "children": []
+          },
+          {
+            "title": "Мотороллеры",
+            "slug": "/catalog/transport/motorollery",
+            "children": []
+          },
+          {
+            "title": "Электромобили",
+            "slug": "/catalog/transport/elektromobili",
+            "children": []
+          },
+          {
+            "title": "электросамокаты",
+            "slug": "/catalog/transport/elektrosamokaty",
+            "children": []
+          },
+          {
+            "title": "BiBiCar",
+            "slug": "/catalog/transport/bibicar",
+            "children": []
+          },
+          {
+            "title": "Аксессуары",
+            "slug": "/catalog/transport/aksessuary",
+            "children": []
+          },
+          {
+            "title": "Роликовые коньки",
+            "slug": "/catalog/transport/rolikovye-konki",
+            "children": []
+          },
+          {
+            "title": "Ходунки",
+            "slug": "/catalog/transport/khodunki",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Детские бассейны",
+        "slug": "/catalog/aktivnyi-otdykh/detskie-basseiny",
+        "children": []
+      }
+    ]
+  },
+  {
+    "title": "Для кормления",
+    "slug": "/catalog/dlya-kormleniya",
+    "children": [
+      {
+        "title": "Аксессуары",
+        "slug": "/catalog/dlya-kormleniya/termosy-aksessuary",
+        "children": []
+      },
+      {
+        "title": "Бутылочки для кормления",
+        "slug": "/catalog/dlya-kormleniya/butylochki-dlya-kormleniya",
+        "children": []
+      },
+      {
+        "title": "Посуда для детей",
+        "slug": "/catalog/dlya-kormleniya/posuda-dlya-detei",
+        "children": []
+      },
+      {
+        "title": "Пустышки, карабины",
+        "slug": "/catalog/dlya-kormleniya/pustyshki-karabiny",
+        "children": []
+      },
+      {
+        "title": "Соски для бутылочек",
+        "slug": "/catalog/dlya-kormleniya/soski",
+        "children": []
+      }
+    ]
+  },
+  {
+    "title": "Гигиена и уход",
+    "slug": "/catalog/gigiena",
+    "children": [
+      {
+        "title": "Аксессуары",
+        "slug": "/catalog/gigiena/aksessuary",
+        "children": []
+      },
+      {
+        "title": "Все для купания",
+        "slug": "http://dmtoys.com.ua/catalog/gigiena/vse-dlya-kupaniya",
+        "children": []
+      },
+      {
+        "title": "Горшки",
+        "slug": "/catalog/gigiena/gorshki",
+        "children": []
+      },
+      {
+        "title": "Косметика",
+        "slug": "/catalog/gigiena/kosmetika",
+        "children": [
+          {
+            "title": "Купание",
+            "slug": "/catalog/gigiena/kosmetika/chicco/kupanie",
+            "children": []
+          },
+          {
+            "title": "От комаров",
+            "slug": "/catalog/gigiena/kosmetika/chicco/ot-komarov",
+            "children": []
+          },
+          {
+            "title": "Первые зубки",
+            "slug": "/catalog/gigiena/kosmetika/chicco/pervye-zubki",
+            "children": []
+          },
+          {
+            "title": "Солнце-защитная серия",
+            "slug": "/catalog/gigiena/kosmetika/chicco/solntse-zashchitnaya-seriya",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Подгузники",
+        "slug": "/catalog/gigiena/podguzniki",
+        "children": []
+      },
+      {
+        "title": "Средства для стирки",
+        "slug": "http://dmtoys.com.ua/katalog/gigiena/sredstva-dlya-stirki",
+        "children": []
+      }
+    ]
+  },
+  {
+    "title": "Автокресла",
+    "slug": "/catalog/avtokresla",
+    "children": []
+  },
+  {
+    "title": "Детская комната",
+    "slug": "/catalog/detskaya-komnata",
+    "children": [
+      {
+        "title": "Кроватки",
+        "slug": "/catalog/detskaya-komnata/krovatki",
+        "children": []
+      },
+      {
+        "title": "Комоды и шкафы",
+        "slug": "/catalog/detskaya-komnata/komody",
+        "children": []
+      },
+      {
+        "title": "Кресла-качалки и шезлонги",
+        "slug": "/catalog/detskaya-komnata/kresla-kachalki",
+        "children": []
+      },
+      {
+        "title": "Манежи",
+        "slug": "/catalog/mebel/manezhi",
+        "children": []
+      },
+      {
+        "title": "Пеленальные столики",
+        "slug": "/katalog/detskaya-komnata/postelnoe-bele",
+        "children": []
+      },
+      {
+        "title": "Стульчики для кормления",
+        "slug": "/catalog/mebel/stulchiki-dlya-kormleniya",
+        "children": []
+      },
+      {
+        "title": "Парты",
+        "slug": "/catalog/mebel/party",
+        "children": []
+      },
+      {
+        "title": "Матрасы",
+        "slug": "/catalog/mebel/matrasy",
+        "children": []
+      }
+    ]
+  }
+]

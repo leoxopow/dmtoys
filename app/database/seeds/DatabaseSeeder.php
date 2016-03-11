@@ -11,7 +11,19 @@ class DatabaseSeeder extends Seeder {
 	{
 		Eloquent::unguard();
 
-		// $this->call('UserTableSeeder');
+		 $this->call('CategoriesTableSeeder');
 	}
 
+}
+
+class CategoriesTableSeeder extends Seeder {
+	public function run()
+	{
+		DB::table('categories')->delete();
+		$jsonCat = 	json_decode(file_get_contents(url('/categories.json')));
+		foreach($jsonCat as $categoriesParent){
+			$cat = new Category();
+			$cat->title = $categoriesParent->title;
+		}
+	}
 }

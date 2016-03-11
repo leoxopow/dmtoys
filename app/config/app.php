@@ -13,7 +13,7 @@ return array(
 	|
 	*/
 
-	'debug' => false,
+	'debug' => true,
 
 	/*
 	|--------------------------------------------------------------------------
@@ -121,9 +121,12 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
+		//dev
 		'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
 		'Way\Generators\GeneratorsServiceProvider',
-		'SleepingOwl\Admin\AdminServiceProvider',
+		'Yangqi\Htmldom\HtmldomServiceProvider',
+		//prod
+		'Frozennode\Administrator\AdministratorServiceProvider',
 	),
 
 	/*
@@ -190,14 +193,7 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
-
-		'Admin'           => 'SleepingOwl\Admin\Admin',
-		'AdminAuth'       => 'SleepingOwl\AdminAuth\Facades\AdminAuth',
-		'AdminRouter'     => 'SleepingOwl\Admin\Facades\AdminRouter',
-		'AssetManager'    => 'SleepingOwl\Admin\AssetManager\AssetManager',
-		'Column'          => 'SleepingOwl\Admin\Columns\Column',
-		'FormItem'        => 'SleepingOwl\Admin\Models\Form\FormItem',
-		'ModelItem'       => 'SleepingOwl\Admin\Models\ModelItem',
+		'Htmldom' 		  => 'Yangqi\Htmldom\Htmldom',
 	),
 
 );
