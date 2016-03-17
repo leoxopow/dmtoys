@@ -1,6 +1,6 @@
 <?php
 return [
-    'title' => 'Wares',
+    'title' => 'Товари',
     'single' => 'ware',
     'model' => 'Ware',
     'columns' => [

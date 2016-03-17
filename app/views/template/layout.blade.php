@@ -10,15 +10,29 @@
 <body>
 <div class="container">
     <ul id="main-menu" class="sm sm-simple">
-        <li><a href="#">Item 1</a></li>
-        <li><a href="#">Item 2</a>
-            <ul>
-                <li><a href="#">Item 2-1</a></li>
-                <li><a href="#">Item 2-2</a></li>
-                <li><a href="#">Item 2-3</a></li>
-            </ul>
-        </li>
-        <li><a href="#">Item 3</a></li>
+        @foreach($menuCategories as $parent)
+            <li>
+                <a href="/{{$parent->slug}}">{{$parent->title}}</a>
+                @if($parent->children->count() > 0)
+                    <ul>
+                        @foreach($parent->children as $child1)
+                            <li>
+                                <a href="/{{$parent->slug}}/{{$child1->slug}}">{{$child1->title}}</a>
+                                @if($child1->children->count() > 0)
+                                    <ul>
+                                        @foreach($child1->children as $child2)
+                                            <li>
+                                                <a href="/{{$parent->slug}}/{{$child1->slug}}/{{$child2->slug}}">{{$child2->title}}</a>
+                                            </li>
+                                        @endforeach
+                                    </ul>
+                                @endif
+                            </li>
+                        @endforeach
+                    </ul>
+                @endif
+            </li>
+        @endforeach
     </ul>
 </div>
 @yield('content')

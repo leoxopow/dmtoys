@@ -14,6 +14,7 @@ class BaseController extends Controller {
 		if ( ! is_null($this->layout))
 		{
 			$this->layout = View::make($this->layout);
+			$this->layout->menuCategories = Category::where('parent_id', 0)->get();
 		}
 	}
 

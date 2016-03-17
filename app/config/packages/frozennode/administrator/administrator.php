@@ -53,6 +53,7 @@ return array(
 	 */
 	'menu' => array(
 		'wares',
+		'categories'
 	),
 
 	/**
