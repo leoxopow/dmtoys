@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'HomeController@index');
+
 Route::get('testjson', function(){
 
 });

@@ -13,4 +13,9 @@ class Category extends \Eloquent
     {
 		return $this->hasMany('Category', 'parent_id');
     }
+
+    public function wares()
+    {
+        return $this->hasMany('Ware');
+    }
 }

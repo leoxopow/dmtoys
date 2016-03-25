@@ -1,0 +1,29 @@
+{
+  "name": "dmtoys",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Kirill Savenkov"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "toys"
+  ],
+  "homepage": "https://github.com/leoxopow/template-frontend",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.5.0",
+    "smartmenus": "^1.0.0",
+    "jquery": "1.12",
+    "bootstrap": "^3.3.6",
+    "bxslider-4": "^4.2.5"
+  }
+}
