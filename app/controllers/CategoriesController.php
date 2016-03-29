@@ -1,21 +1,23 @@
 <?php
 
-class CategoriesContoller extends \BaseController {
+class CategoriesController extends \BaseController {
 
 	/**
 	 * Display a listing of the resource.
-	 * GET /categoriescontoller
+	 * GET /categories
 	 *
 	 * @return Response
 	 */
-	public function index()
+	public function index($path)
 	{
-		//
+		$slug = explode('/', $path);
+		$category = Category::where('slug', end($slug))->first();
+		$this->layout->content = View::make('page.category', compact('category'));
 	}
 
 	/**
 	 * Show the form for creating a new resource.
-	 * GET /categoriescontoller/create
+	 * GET /categories/create
 	 *
 	 * @return Response
 	 */
@@ -26,7 +28,7 @@ class CategoriesContoller extends \BaseController {
 
 	/**
 	 * Store a newly created resource in storage.
-	 * POST /categoriescontoller
+	 * POST /categories
 	 *
 	 * @return Response
 	 */
@@ -37,7 +39,7 @@ class CategoriesContoller extends \BaseController {
 
 	/**
 	 * Display the specified resource.
-	 * GET /categoriescontoller/{id}
+	 * GET /categories/{id}
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -49,7 +51,7 @@ class CategoriesContoller extends \BaseController {
 
 	/**
 	 * Show the form for editing the specified resource.
-	 * GET /categoriescontoller/{id}/edit
+	 * GET /categories/{id}/edit
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -61,7 +63,7 @@ class CategoriesContoller extends \BaseController {
 
 	/**
 	 * Update the specified resource in storage.
-	 * PUT /categoriescontoller/{id}
+	 * PUT /categories/{id}
 	 *
 	 * @param  int  $id
 	 * @return Response
@@ -73,7 +75,7 @@ class CategoriesContoller extends \BaseController {
 
 	/**
 	 * Remove the specified resource from storage.
-	 * DELETE /categoriescontoller/{id}
+	 * DELETE /categories/{id}
 	 *
 	 * @param  int  $id
 	 * @return Response

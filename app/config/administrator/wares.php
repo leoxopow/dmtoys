@@ -52,5 +52,7 @@ return [
             'name_field' => 'title'
         ]
     ],
-
+    'action_permissions' => [
+        
+    ]
 ];

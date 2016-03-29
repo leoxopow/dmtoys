@@ -31,7 +31,6 @@ $(function() {
       if ($mainMenuState[0].checked) {
         $mainMenuState[0].click();
       }
-      return '';
     });
   }
   $(window).on('load', function() {
@@ -44,7 +43,5 @@ $(function() {
         $menu.css('display', 'none');
       }
     }
-    return '';
   });
-  return '';
 });

@@ -25,17 +25,17 @@
         <ul id="main-menu" class="sm sm-simple">
             @foreach($menuCategories as $parent)
                 <li>
-                    <a href="/{{$parent->slug}}">{{$parent->title}}</a>
+                    <a href="/catalog/{{$parent->slug}}">{{$parent->title}}</a>
                     @if($parent->children->count() > 0)
                         <ul>
                             @foreach($parent->children as $child1)
                                 <li>
-                                    <a href="/{{$parent->slug}}/{{$child1->slug}}">{{$child1->title}}</a>
+                                    <a href="/catalog/{{$parent->slug}}/{{$child1->slug}}">{{$child1->title}}</a>
                                     @if($child1->children->count() > 0)
                                         <ul>
                                             @foreach($child1->children as $child2)
                                                 <li>
-                                                    <a href="/{{$parent->slug}}/{{$child1->slug}}/{{$child2->slug}}">{{$child2->title}}</a>
+                                                    <a href="/catalog/{{$parent->slug}}/{{$child1->slug}}/{{$child2->slug}}">{{$child2->title}}</a>
                                                 </li>
                                             @endforeach
                                         </ul>
@@ -59,7 +59,7 @@
                 <p class="contacts"><i class="fa fa-phone"> </i><a href="tel:0679588462">(067) 958 84 62</a><br><i
                             class="fa fa-phone"></i><a href="tel:0991713836">(099) 171 38 36</a><br><i
                             class="fa fa-skype"></i><a href="skype:dmtoys.com.ua?chat">dmtoys.com.ua</a><br></p>
-                <p class="contacts">г. Запорожье, ТЦ "Украина", 4 этаж, пр. Соборный, 147, 4 этаж</p>
+                <p class="contacts">г. Запорожье, ТЦ "Украина", пр. Соборный, 147, 4 этаж</p>
             </div>
             <div class="col-md-2 col-md-offset-2">
                 <ul class="nav">

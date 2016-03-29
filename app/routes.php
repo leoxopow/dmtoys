@@ -13,6 +13,5 @@
 
 Route::get('/', 'HomeController@index');
 
-Route::get('testjson', function(){
-
-});
+Route::get('catalog/{path}', 'CategoriesController@index')->where('path', '(.*)?');
+Route::get('product/{path}', 'WaresController@index')->where('path', '(.*)?');

@@ -20,4 +20,10 @@ class HomeController extends BaseController {
 		$this->layout->content = View::make('page.index');
 	}
 
+	public function path($path)
+	{
+		$slug = explode('/', $path);
+		return $category = Category::where('slug', end($slug))->first();
+	}
+
 }
