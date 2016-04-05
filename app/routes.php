@@ -15,3 +15,7 @@ Route::get('/', 'HomeController@index');
 
 Route::get('catalog/{path}', 'CategoriesController@index')->where('path', '(.*)?');
 Route::get('product/{path}', 'WaresController@index')->where('path', '(.*)?');
+Route::any('ajax-cart', 'HomeController@ajaxCart');
+Route::get('cart-test', function(){
+    return Cart::content();
+});

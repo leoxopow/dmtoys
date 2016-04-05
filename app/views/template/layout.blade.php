@@ -16,8 +16,14 @@
         <div class="contacts"><a href="tel:0679588462" class="contact"> <i class="fa fa-phone-square"></i> <span>(067) 958 84 62</span></a><a
                     href="tel:0679588462" class="contact"> <i class="fa fa-phone-square"></i>
                 <span>(099) 171 38 36</span></a><a href="skype:dmtoys.com.ua?chat" class="contact"> <i
-                        class="fa fa-skype"></i> <span>dmtoys.com.ua</span></a><a href="#" class="basket"><img
-                        src="/images/icon-basket.png" alt=""><span class="counter">2</span></a></div>
+                        class="fa fa-skype"></i> <span>dmtoys.com.ua</span></a>
+            <a href="#" class="basket">
+                <img src="/images/icon-basket.png" alt="">
+                @if(Cart::count() > 0)
+                    <span class="counter">{{Cart::count()}}</span>
+                @endif
+            </a>
+        </div>
     </div>
     <input id="main-menu-state" type="checkbox" name="">
     <label for="main-menu-state" class="main-menu-btn"><span class="main-menu-btn-icon"></span></label>
@@ -103,5 +109,6 @@
 <script src="/components/smartmenus/dist/jquery.smartmenus.min.js"></script>
 <script src="/components/bxslider-4/dist/jquery.bxslider.min.js"></script>
 <script src="/js/main-front.js"></script>
+<script src="/js/main.js"></script>
 </body>
 </html>

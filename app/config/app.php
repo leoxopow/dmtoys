@@ -127,6 +127,7 @@ return array(
 		'Yangqi\Htmldom\HtmldomServiceProvider',
 		//prod
 		'Frozennode\Administrator\AdministratorServiceProvider',
+		'Gloudemans\Shoppingcart\ShoppingcartServiceProvider'
 	),
 
 	/*
@@ -194,6 +195,7 @@ return array(
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
 		'Htmldom' 		  => 'Yangqi\Htmldom\Htmldom',
+		'Cart'            => 'Gloudemans\Shoppingcart\Facades\Cart',
 	),
 
 );

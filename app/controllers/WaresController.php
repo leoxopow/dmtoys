@@ -8,9 +8,12 @@ class WaresController extends \BaseController {
 	 *
 	 * @return Response
 	 */
-	public function index()
+	public function index($path)
 	{
-		//
+		$ware = Ware::where('slug', $path)->first();
+		$ware->views++;
+		$ware->save();
+		$this->layout->content = View::make('page.itemWare', compact('ware'));
 	}
 
 	/**

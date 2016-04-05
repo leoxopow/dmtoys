@@ -12,7 +12,8 @@ class CategoriesController extends \BaseController {
 	{
 		$slug = explode('/', $path);
 		$category = Category::where('slug', end($slug))->first();
-		$this->layout->content = View::make('page.category', compact('category'));
+		$wares = $category->wares->paginate(12);
+		$this->layout->content = View::make('page.category', compact('category', 'wares'));
 	}
 
 	/**

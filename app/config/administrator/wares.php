@@ -25,10 +25,14 @@ return [
         'id',
         'title',
         'article',
+        'category'
     ],
     'edit_fields' => [
         'title',
         'article',
+        'slug' => [
+            'title' => 'Посилання',
+        ],
         'thumbnail' => [
             'title' => 'Головне зображення',
             'type' => 'image',
@@ -41,6 +45,18 @@ return [
                 array(220, 138, 'landscape', public_path() . '/uploads/thumbs/medium/', 100),
                 array(383, 276, 'fit', public_path() . '/uploads/thumbs/full/', 100)
             )
+        ],
+        'price' => [
+            'type' => 'number',
+            'title' => 'Ціна',
+            'symbol' => '₴',
+            'decimal' => '2'
+        ],
+        'discount' => [
+            'type' => 'number',
+            'title' => 'Знижка',
+            'symbol' => '₴',
+            'decimal' => '2'
         ],
         'description' => [
             'type' => 'wysiwyg',
