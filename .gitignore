@@ -11,3 +11,4 @@ app/config/database.php
 _ide_helper.php
 public/uploads/
 public/components
+.htaccess
