@@ -30,8 +30,14 @@ class HomeController extends BaseController {
 	public function ajaxCart()
 	{
 		$ware = Ware::find(Input::get('wareId'));
-		Cart::add(['id' => Input::get('wareId'), 'name' => $ware->title, 'qty' => 1, 'price' => $ware->price - $ware->discount]);
+		Cart::associate('Ware')->add(['id' => Input::get('wareId'), 'name' => $ware->title, 'qty' => 1, 'price' => $ware->price - $ware->discount]);
 		return Cart::count();
+	}
+
+	public function cart()
+	{
+		$cartContent = Cart::content();
+		$this->layout->content = View::make('page.cart', compact('cartContent'));
 	}
 
 }

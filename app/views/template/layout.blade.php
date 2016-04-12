@@ -17,10 +17,12 @@
                     href="tel:0679588462" class="contact"> <i class="fa fa-phone-square"></i>
                 <span>(099) 171 38 36</span></a><a href="skype:dmtoys.com.ua?chat" class="contact"> <i
                         class="fa fa-skype"></i> <span>dmtoys.com.ua</span></a>
-            <a href="#" class="basket">
+            <a href="/cart" class="basket">
                 <img src="/images/icon-basket.png" alt="">
                 @if(Cart::count() > 0)
                     <span class="counter">{{Cart::count()}}</span>
+                @else
+                    <span class="counter hidden"></span>
                 @endif
             </a>
         </div>

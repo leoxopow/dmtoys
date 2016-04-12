@@ -10,8 +10,19 @@
           wareId: $(this).data('ware')
         },
         success: function(data) {
-          return $('.basket .counter').text(data);
+          return $('.basket .counter').removeClass('hidden').text(data);
         }
+      });
+    });
+    $('[data-removeRowCart]').on('click', function() {
+      return $.ajax({
+        url: '/ajax-cart-remove',
+        type: 'post',
+        dataType: 'json',
+        data: {
+          idRow: $(this).data('removeRowCart')
+        },
+        success: function(data) {}
       });
     });
   })(jQuery);

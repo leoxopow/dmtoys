@@ -2,7 +2,11 @@
 
 class Category extends \Eloquent
 {
-    protected $fillable = [];
+    protected $fillable = ['title', 'parent_id', 'slug'];
+    static $rules = [
+        'title' => 'required',
+        'slug' => 'required|unique:categories'
+    ];
 
     public function parent()
     {

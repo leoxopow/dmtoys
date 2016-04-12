@@ -12,7 +12,7 @@ class CategoriesController extends \BaseController {
 	{
 		$slug = explode('/', $path);
 		$category = Category::where('slug', end($slug))->first();
-		$wares = $category->wares->paginate(12);
+		$wares = Ware::where('category_id', $category->id)->paginate(12);
 		$this->layout->content = View::make('page.category', compact('category', 'wares'));
 	}
 
@@ -24,7 +24,19 @@ class CategoriesController extends \BaseController {
 	 */
 	public function create()
 	{
-		//
+		$categories = Category::where('parent_id', 0)->get();
+		$categoriesSelect = [];
+		$categoriesSelect[0] = 'Старша Категорія';
+		foreach ($categories as $parent){
+			$categoriesSelect[$parent->id] = $parent->title;
+			foreach ($parent->children as $child1){
+				$categoriesSelect[$child1->id] =  '- '.$child1->title;
+				foreach ($child1->children as $child2){
+					$categoriesSelect[$child2->id] =  '-- '.$child2->title;
+				}
+			}
+		}
+		return  View::make('admin.categorynew', compact('categoriesSelect'));
 	}
 
 	/**
@@ -35,7 +47,18 @@ class CategoriesController extends \BaseController {
 	 */
 	public function store()
 	{
-		//
+		$validator = Validator::make($data = Input::all(), Category::$rules);
+
+		if ($validator->fails())
+		{
+
+			return Redirect::back()->withErrors($validator)->withInput();
+		}
+
+		Category::create($data);
+
+		return Redirect::route('adm/categories');
+
 	}
 
 	/**
@@ -59,7 +82,20 @@ class CategoriesController extends \BaseController {
 	 */
 	public function edit($id)
 	{
-		//
+		$category = Category::findOrFail($id);
+		$categories = Category::where('parent_id', 0)->get();
+		$categoriesSelect = [];
+		$categoriesSelect[0] = 'Старша Категорія';
+		foreach ($categories as $parent){
+			$categoriesSelect[$parent->id] = $parent->title;
+			foreach ($parent->children as $child1){
+				$categoriesSelect[$child1->id] =  '- '.$child1->title;
+				foreach ($child1->children as $child2){
+					$categoriesSelect[$child2->id] =  '-- '.$child2->title;
+				}
+			}
+		}
+		return  View::make('admin.category', compact('category', 'categoriesSelect'));
 	}
 
 	/**
@@ -71,7 +107,18 @@ class CategoriesController extends \BaseController {
 	 */
 	public function update($id)
 	{
-		//
+		$post = Category::findOrFail($id);
+
+		$validator = Validator::make($data = Input::all(), Category::$rules);
+
+		if ($validator->fails())
+		{
+			return Redirect::back()->withErrors($validator)->withInput();
+		}
+
+		$post->update($data);
+
+		return Redirect::route('adm/categories');
 	}
 
 	/**
@@ -84,6 +131,12 @@ class CategoriesController extends \BaseController {
 	public function destroy($id)
 	{
 		//
+	}
+
+	public function adminIndex()
+	{
+		$categories = Category::where('parent_id', 0)->get();
+		return View::make('admin.categories', compact('categories'));
 	}
 
 }

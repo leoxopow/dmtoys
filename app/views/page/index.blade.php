@@ -44,55 +44,6 @@
                         </article>
                     </div>
                 @endforeach
-                <div class="col-md-3">
-                    <article class="product-item"><a href="#" class="product-pic"><img src="/images/product-example.jpg" alt=""></a>
-                        <h6 class="category"><a href="#">Футболки</a></h6>
-                        <h1 class="title"><a href="#">Поло с коротким рукавом</a></h1>
-                        <p class="price">₴ 160.00</p>
-                    </article>
-                </div>
-                <div class="col-md-3">
-                    <article class="product-item sale"><a href="#" class="product-pic"><img src="/images/product-example.jpg" alt=""></a>
-                        <h6 class="category"><a href="#">Футболки</a></h6>
-                        <h1 class="title"><a href="#">Поло с коротким рукавом</a></h1>
-                        <p class="price"> <span class="deactive">₴ 180.00</span><span class="active">₴ 160.00</span></p>
-                    </article>
-                </div>
-                <div class="col-md-3">
-                    <article class="product-item"><a href="#" class="product-pic"><img src="/images/product-example.jpg" alt=""></a>
-                        <h6 class="category"><a href="#">Футболки</a></h6>
-                        <h1 class="title"><a href="#">Поло с коротким рукавом</a></h1>
-                        <p class="price"> <span class="deactive">₴ 180.00</span><span class="active">₴ 160.00</span></p>
-                    </article>
-                </div>
-                <div class="col-md-3">
-                    <article class="product-item"><a href="#" class="product-pic"><img src="/images/product-example.jpg" alt=""></a>
-                        <h6 class="category"><a href="#">Футболки</a></h6>
-                        <h1 class="title"><a href="#">Поло с коротким рукавом</a></h1>
-                        <p class="price"> <span class="deactive">₴ 180.00</span><span class="active">₴ 160.00</span></p>
-                    </article>
-                </div>
-                <div class="col-md-3">
-                    <article class="product-item"><a href="#" class="product-pic"><img src="/images/product-example.jpg" alt=""></a>
-                        <h6 class="category"><a href="#">Футболки</a></h6>
-                        <h1 class="title"><a href="#">Поло с коротким рукавом для мальчика Silver Sun BK 74124 C3</a></h1>
-                        <p class="price"> <span class="deactive">₴ 180.00</span><span class="active">₴ 160.00</span></p>
-                    </article>
-                </div>
-                <div class="col-md-3">
-                    <article class="product-item"><a href="#" class="product-pic"><img src="/images/product-example.jpg" alt=""></a>
-                        <h6 class="category"><a href="#">Футболки</a></h6>
-                        <h1 class="title"><a href="#">Поло с коротким рукавом</a></h1>
-                        <p class="price"> <span class="deactive">₴ 180.00</span><span class="active">₴ 160.00</span></p>
-                    </article>
-                </div>
-                <div class="col-md-3">
-                    <article class="product-item"><a href="#" class="product-pic"><img src="/images/product-example.jpg" alt=""></a>
-                        <h6 class="category"><a href="#">Футболки</a></h6>
-                        <h1 class="title"><a href="#">Поло с коротким рукавом</a></h1>
-                        <p class="price"> <span class="deactive">₴ 180.00</span><span class="active">₴ 160.00</span></p>
-                    </article>
-                </div>
             </div>
         </div>
     </section>

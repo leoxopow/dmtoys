@@ -1,10 +1,10 @@
 <?php
 
 class Ware extends \Eloquent {
-	protected $fillable = [];
+	protected $fillable = ['title', 'thumbnail', 'description', 'category_id'];
 	public static $rules = [
 		'title' => 'required',
-		'slug ' => 'unique:wares'
+		'slug ' => 'required|unique:wares'
 	];
 
 	public function category()
