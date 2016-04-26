@@ -127,7 +127,10 @@ return array(
 		'Yangqi\Htmldom\HtmldomServiceProvider',
 		//prod
 		'Frozennode\Administrator\AdministratorServiceProvider',
-		'Gloudemans\Shoppingcart\ShoppingcartServiceProvider'
+		'Gloudemans\Shoppingcart\ShoppingcartServiceProvider',
+		'Intervention\Image\ImageServiceProvider',
+		'Maatwebsite\Excel\ExcelServiceProvider',
+		'Somepony\L4CyrillicSlug\L4CyrillicSlugServiceProvider',
 	),
 
 	/*
@@ -196,6 +199,9 @@ return array(
 		'View'            => 'Illuminate\Support\Facades\View',
 		'Htmldom' 		  => 'Yangqi\Htmldom\Htmldom',
 		'Cart'            => 'Gloudemans\Shoppingcart\Facades\Cart',
+		'Image' 		  => 'Intervention\Image\Facades\Image',
+		'Excel' 		  => 'Maatwebsite\Excel\Facades\Excel',
+		'Slug' 			  => 'Somepony\L4CyrillicSlug\Facades\Slug',
 	),
 
 );

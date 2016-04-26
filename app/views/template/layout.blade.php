@@ -12,19 +12,25 @@
 </head>
 <body>
 <header class="top-header">
-    <div class="top clearfix"><a href="/" class="logo"><img src="/images/logo.png" alt=""></a>
-        <div class="contacts"><a href="tel:0679588462" class="contact"> <i class="fa fa-phone-square"></i> <span>(067) 958 84 62</span></a><a
-                    href="tel:0679588462" class="contact"> <i class="fa fa-phone-square"></i>
-                <span>(099) 171 38 36</span></a><a href="skype:dmtoys.com.ua?chat" class="contact"> <i
-                        class="fa fa-skype"></i> <span>dmtoys.com.ua</span></a>
-            <a href="/cart" class="basket">
-                <img src="/images/icon-basket.png" alt="">
-                @if(Cart::count() > 0)
-                    <span class="counter">{{Cart::count()}}</span>
-                @else
-                    <span class="counter hidden"></span>
-                @endif
-            </a>
+    <div class="container">
+        <div class="top clearfix"><a href="/" class="logo"><img src="/images/logo.png" alt=""></a>
+            <div class="contacts"><a href="tel:0679588462" class="contact"> <i class="fa fa-phone-square"></i> <span>(067) 958 84 62</span></a><a
+                        href="tel:0679588462" class="contact"> <i class="fa fa-phone-square"></i>
+                    <span>(099) 171 38 36</span></a><a href="skype:dmtoys.com.ua?chat" class="contact"> <i
+                            class="fa fa-skype"></i> <span>dmtoys.com.ua</span></a>
+                <a href="/cart" class="basket">
+                    <img src="/images/icon-basket.png" alt="">
+                    @if(Cart::count() > 0)
+                        <span class="counter">{{Cart::count()}}</span>
+                    @else
+                        <span class="counter hidden"></span>
+                    @endif
+                </a>
+                <form action="" class="input-group search-wrapper">
+                    <input type="text" placeholder="Введите ваш товар..." class="form-control"><span class="input-group-btn">
+                <button type="submit" class="btn"> <span class="hidden-xs hidden-sm">Искать</span><span class="hidden-md hidden-lg"><i class="glyphicon glyphicon-search"></i></span></button></span>
+                </form>
+            </div>
         </div>
     </div>
     <input id="main-menu-state" type="checkbox" name="">

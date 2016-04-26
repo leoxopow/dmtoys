@@ -128,4 +128,36 @@ class WaresController extends \BaseController {
 		return View::make('admin.wares', compact('wares'));
 	}
 
+	public function waresImport()
+	{
+		return View::make('admin.importWare');
+	}
+
+	public function waresImportStore()
+	{
+		if( Input::hasFile('importFile') ){
+			$file = Input::file('importFile');
+			$filePath = public_path( 'uploads/imports/'.date('Y/m/d'));
+			$fileName = Str::random('3').$file->getClientOriginalName();
+			$file->move( $filePath, $fileName );
+			$excel = Excel::load("$filePath/$fileName", function($reader) {
+
+			})->get();
+			foreach ($excel as $item){
+				$ware = Ware::where('article', $item->sku)->first();
+				if (!$ware){
+					$ware = new Ware();
+					$ware->slug = Slug::make($item->name).Str::random(8);
+				}
+				$ware->article = $item->sku;
+				$ware->slug = Slug::make($item->name);
+				$ware->title  = $item->name;
+				$ware->price = $item->list_price;
+				$ware->discount = $item->sell_price;
+				$ware->save();
+			}
+			return 'ok';
+		}
+	}
+
 }

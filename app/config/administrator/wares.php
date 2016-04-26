@@ -7,6 +7,7 @@ return [
         'id',
         'title',
         'article',
+        'slug',
         'thumbnail' => array(
             'title' => 'Головне зображення',
             'type' => 'image',

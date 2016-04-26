@@ -40,4 +40,18 @@ class HomeController extends BaseController {
 		$this->layout->content = View::make('page.cart', compact('cartContent'));
 	}
 
+	public function ajaxCartRemove()
+	{
+		Cart::remove(Input::get('idRow'));
+		$cartContentObj = Cart::content();
+		$cartContentArr = [];
+		$cartCount = Cart::count();
+		foreach ($cartContentObj as $item){
+			$item->options['thumbnail'] = $item->ware->thumbnail;
+			$item->options['slug'] = $item->ware->slug; 
+			$cartContentArr[] = $item;
+		}
+		return compact('cartContentArr', 'cartCount');
+	}
+
 }

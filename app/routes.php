@@ -17,8 +17,16 @@ Route::get('catalog/{path}', 'CategoriesController@index')->where('path', '(.*)?
 Route::get('katalog/{path}', 'CategoriesController@index')->where('path', '(.*)?');
 Route::get('product/{path}', 'WaresController@index')->where('path', '(.*)?');
 Route::any('ajax-cart', 'HomeController@ajaxCart');
+Route::any('ajax-cart-remove', 'HomeController@ajaxCartRemove');
 Route::get('cart-test', function(){
-    return Cart::content();
+    $cartContentObj = Cart::content();
+    $cartContentArr = [];
+    foreach ($cartContentObj as $item){
+        $item->thumbnail = $item->ware->thumbnail;
+        $item->options['slug'] = 'sdfsd';
+        $cartContentArr[] = $item;
+    }
+    return $cartContentArr;
 });
 Route::get('get-data', function(){
     $html = new Htmldom('http://dmtoys.com.ua/catalog/igrushki/interaktivnye-igrushki/angry-birds');
@@ -41,6 +49,8 @@ Route::get('adm/categories/{id}/destroy', 'CategoriesController@destroy');
 Route::get('adm/wares', 'WaresController@adminIndex');
 Route::post('adm/wares', 'WaresController@store');
 Route::get('adm/wares/create', 'WaresController@create');
+Route::get('adm/wares/import', 'WaresController@waresImport');
+Route::post('adm/wares/import', 'WaresController@waresImportStore');
 Route::get('adm/wares/{id}', 'WaresController@edit');
 Route::put('adm/wares/{id}', 'WaresController@update');
 Route::get('adm/wares/{id}/destroy', 'WaresController@destroy');

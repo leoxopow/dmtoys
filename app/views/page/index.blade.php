@@ -23,7 +23,21 @@
         </li>
     </ul>
     <section class="main-phrase">
-        <h2> <span>Интернет магазин. </span>Всё для ребенка</h2>
+        <div class="container">
+            <h2> <span>Интернет магазин. </span>Всё для ребенка</h2>
+        </div>
+    </section>
+    <section class="categories-presentation">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 present-item"><a href="#"><img src="/images/cat1.jpg" alt="" class="img-responsive"><span class="absolute-text">Игрушки</span></a></div>
+                <div class="col-sm-3 present-item main-h"><a href="#"><img src="/images/cat2.jpg" alt="" class="img-responsive"><span class="absolute-text">Одежда</span></a></div>
+                <div class="col-sm-3 present-item"><a href="#"><img src="/images/cat3.jpg" alt="" class="img-responsive"><span class="absolute-text">Коляски</span></a></div>
+                <div class="col-sm-3 present-item"><a href="#"><img src="/images/cat4.jpg" alt="" class="img-responsive"><span class="absolute-text">Скидки</span></a></div>
+                <div class="col-sm-3 present-item"><a href="#"><img src="/images/cat5.jpg" alt="" class="img-responsive"><span class="absolute-text">Комната</span></a></div>
+                <div class="col-sm-6 present-item"><a href="#"><img src="/images/cat6.jpg" alt="" class="img-responsive"><span class="absolute-text">Активный отдых</span></a></div>
+            </div>
+        </div>
     </section>
     <section class="popular-products">
         <div class="container">
@@ -32,11 +46,13 @@
                 @foreach($wares as $ware)
                     <div class="col-md-3">
                         <article class="product-item"><a href="/product/{{$ware->slug}}" class="product-pic"><img src="{{asset('uploads/originals/'.$ware->thumbnail)}}" alt=""></a>
+                            @if($ware->category_id != 0)
                             <h6 class="category"><a href="/catalog/{{$ware->category->slug}}">{{$ware->category->title}}</a></h6>
+                            @endif
                             <h1 class="title"><a href="/product/{{$ware->slug}}">{{$ware->title}}</a></h1>
                             <p class="price">
                                 @if($ware->discount > 0)
-                                    <span class="deactive">₴ {{$ware->price}}</span><span class="active">₴ {{$ware->price - $ware->discount}}</span>
+                                    <span class="deactive">₴ {{$ware->price}}</span><span class="active">₴ {{$ware->discount}}</span>
                                 @else
                                     ₴ {{$ware->price}}
                                 @endif

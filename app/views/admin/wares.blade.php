@@ -1,7 +1,9 @@
 @extends('admin.template')
 
 @section('content')
-    <h1>Товари</h1>
+    <h1>Товари <a href="/adm/wares/create">
+            <small>Новий товар</small></a></h1>
+    <p><a href="/adm/wares/import">Імпорт товарів</a></p>
     <ul class="list-group">
         @foreach($wares as $ware)
             <li class="list-group-item clearfix">

@@ -1,7 +1,7 @@
 @section('content')
     <div class="container">
         <h1>Корзина</h1>
-        <table class="table table-condensed">
+        <table class="table table-condensed" id="cartContent">
             <tr>
                 <th>
                     Товар:
@@ -36,7 +36,7 @@
                     </div>
                 </td>
                 <td>
-                    <button class="btn" data-removeRowCart="{{$row->rowid}}">
+                    <button class="btn" data-remove-row-cart="{{$row->rowid}}">
                         <i class="glyphicon glyphicon-trash" ></i>
                     </button>
                 </td>

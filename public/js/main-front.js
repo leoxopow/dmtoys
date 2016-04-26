@@ -44,4 +44,9 @@ $(function() {
       }
     }
   });
+  $(window).on('load resize', function() {
+    var heightItem;
+    heightItem = $('.categories-presentation .main-h').height();
+    $('.categories-presentation .present-item').height(heightItem + 1);
+  });
 });
