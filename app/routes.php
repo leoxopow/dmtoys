@@ -54,3 +54,5 @@ Route::post('adm/wares/import', 'WaresController@waresImportStore');
 Route::get('adm/wares/{id}', 'WaresController@edit');
 Route::put('adm/wares/{id}', 'WaresController@update');
 Route::get('adm/wares/{id}/destroy', 'WaresController@destroy');
+
+Route::get('testparse', 'HomeController@parseTest');

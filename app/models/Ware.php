@@ -1,7 +1,7 @@
 <?php
 
 class Ware extends \Eloquent {
-	protected $fillable = ['title', 'thumbnail', 'description', 'category_id'];
+	protected $fillable = ['title', 'article', 'thumbnail', 'slug', 'description', 'category_id'];
 	public static $rules = [
 		'title' => 'required',
 		

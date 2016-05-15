@@ -1,7 +1,7 @@
 @extends('admin.template')
 
 @section('content')
-    {{Form::open( ['files' => true] )}}
+    {{Form::open( ['files' => true, 'url' => 'adm/wares'] )}}
     <div class="form-group">
         <label for="title">Назва товару</label>
         <input type="text" name="title" id="title" class="form-control">
@@ -17,6 +17,10 @@
     <div class="form-group">
         <label for="discount">Знижка</label>
         <input type="text" name="discount" id="discount" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="slug">URL</label>
+        <input type="text" class="form-control" id="slug" name="slug">
     </div>
     <div class="form-group">
         <label for="description">Опис</label>

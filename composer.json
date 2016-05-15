@@ -15,7 +15,8 @@
 	},
 	"require-dev":{
 		"way/generators": "~2.0",
-		"barryvdh/laravel-ide-helper": "~1.11"
+		"barryvdh/laravel-ide-helper": "~1.11",
+		"coderockr/php-query": "dev-master"
 	},
 	"autoload": {
 		"classmap": [

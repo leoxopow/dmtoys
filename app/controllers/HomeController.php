@@ -54,4 +54,18 @@ class HomeController extends BaseController {
 		return compact('cartContentArr', 'cartCount');
 	}
 
+	public function parseTest()
+	{
+		$html = file_get_contents('http://dmtoys.com.ua');
+		$results = phpQuery::newDocument($html);
+		$resultsA = pq($results)['img'];
+		$dd = [];
+		foreach ($resultsA as $key => $value) {
+			$dd[]['href'] = pq($value)->attr('src');
+		}
+
+		phpQuery::unloadDocuments();
+		return $dd;
+	}
+
 }

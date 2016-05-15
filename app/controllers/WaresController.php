@@ -46,7 +46,13 @@ class WaresController extends \BaseController {
 	 */
 	public function store()
 	{
-		$validator = Validator::make($data = Input::all(), Ware::$rules);
+		$data = Input::all();
+		if( Input::hasFile('thumbnail') ) {
+			$thumbnail = Input::file('thumbnail');
+			$fileName = $thumbnail->getClientOriginalName();
+			$data['thumbnail'] = $fileName;
+		}
+		$validator = Validator::make($data, Ware::$rules);
 
 		if ($validator->fails())
 		{
@@ -55,9 +61,14 @@ class WaresController extends \BaseController {
 		}
 
 		$ware  = Ware::create($data);
+		
+		if ( Input::hasFile('thumbnail') ) {
+			$filePath = public_path( 'uploads/thumbnails/' . $ware->id );
+			$thumbnail->move( $filePath, $fileName );
+		}
 
 		
-		return Redirect::route('adm/categories');
+		return Redirect::back();
 
 	}
 
@@ -95,7 +106,7 @@ class WaresController extends \BaseController {
 	 */
 	public function update($id)
 	{
-		$post = Ware::findOrFail($id);
+		$ware = Ware::findOrFail($id);
 
 		$validator = Validator::make($data = Input::all(), Ware::$rules);
 
@@ -104,9 +115,9 @@ class WaresController extends \BaseController {
 			return Redirect::back()->withErrors($validator)->withInput();
 		}
 
-		$post->update($data);
+		$ware->update($data);
 
-		return Redirect::route('posts.index');
+		return Redirect::back();
 	}
 
 	/**

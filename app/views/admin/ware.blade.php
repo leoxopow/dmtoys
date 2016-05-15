@@ -17,7 +17,7 @@
     </div>
     <div class="form-group">
         <h4>Головне зображення:</h4>
-        <img src="{{asset('uploads/originals/'.$ware->thumbnail)}}" class="thumbnail" alt="">
+        <img src="{{asset('uploads/thumbnails/' . $ware->id . '/' . $ware->thumbnail)}}" class="thumbnail" alt="">
     </div>
     <div class="form-group">
         <label for="thumbnail">Головне зображення</label>
